@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Lesson7 exercises</title>
+  </head>
+
+  <body>
+
+    <script>
+      
+     /* 7a
+      function greet(){
+        console.log('hello');
+      }
+      greet();
+      greet();
+      */
+
+     /*
+      function greet(name){
+        if(!name){
+          console.log('Hi there!')
+        }
+        else{
+          console.log(`Hello ${name}`);
+        }
+      }
+      greet('Simon');
+      greet('Obangs');
+      greet();
+      */
+
+      /*
+      7d
+      function convertCelsius(number){
+        let fahrenheit;
+        fahrenheit = (number*9/5) + 32;
+        return fahrenheit;
+      }
+      let fahrenheit = convertCelsius(25);
+      console.log(fahrenheit);
+      */
+
+      /* 7e
+      function convertFahrenheit(number){
+        let celsius;
+        celsius = (number - 32) * 5/9;
+        return celsius;
+      }
+      let celsius = convertFahrenheit(86);
+      console.log(celsius);
+      */
+
+      function convertFahrenheit(number,C){
+        let celsius,z;
+        celsius = (number - 32) * 5/9 ;
+        str = `'${celsius}${C}'`;
+        return str;
+      }
+      let celsius = convertFahrenheit(86,'C');
+      console.log(celsius);
+    </script>
+
+  </body>
+</html>

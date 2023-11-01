@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>exercise 8e-h</title>
+  </head>
+
+  <body>
+
+    <script>
+        
+       
+          
+        function isSameProduct(product1,product2){
+
+          
+
+            if(product1.name && product1.price === product2.name && product2.price){
+                //console.log(true);
+                return true;
+            }
+            else {
+                //console.log(false);
+                return false;
+            }
+        }
+
+          let   product1 = {
+                name: 'detol',
+                price: 20
+            };
+           let  product2 = {
+                name: 'socks',
+                price: 43
+             };
+
+             console.log(isSameProduct(product1, product2));
+
+        //converting string to lower case(exercise 8f)
+        console.log('Good Morning'.toLowerCase());
+
+        //repeating a string
+        console.log('test'.repeat(5));
+
+        //replacing a string
+        console.log('Hello World'.replace('Hi Freetownian'));
+
+        //replacing a subpart of a string using regular expression. Note: g, means global
+        let originalString = 'JavaScript is fun. I love JavaScript';
+        let replacedString = originalString.replace(/JavaScript/g, "Python");
+        console.log(replacedString);
+
+        
+       
+
+        
+    </script>
+
+  </body>
+</html>
